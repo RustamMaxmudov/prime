@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montaga&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto' sans-serif;
+}
+ 
+/* .container{
+    width: 1200px;
+    height: 72px;
+}  */
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0 0 0 ;
+    gap: 60px;
+}
+
+.header_text{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  list-style: none;
+}
+
+.header_logo{
+    padding: 25px 0 0 0;
+}
+
+a{
+    text-decoration: none;
+    color: #1B1A1A;
+    font-size: 15px;
+    /* gap: 60px; */
+}
+
+.header_link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 400;
+}
+.btn{
+    background: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding: 9px 36px 12px 16px;
+    border-radius: 9.999px;
+    border: none;
+    outline: none;
+}
+.web_site-logo{
+    background: #ffff;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 111px;
+}
+
+.section_text h1{
+    font-size: 63px;
+    font-weight: 400;
+    color: #1B1A1A;
+    padding-bottom: 51px;
+}
+
+.section_text p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #616161;
+    padding-bottom: 47px;
+}
+
+.header_btn{
+    background: #000000;
+    font-size: 18px;
+    border-radius: 9.999px;
+    color: #FFFFFF;
+    padding: 0 25px 0 27px;
+    border: none;
+    outline: none;
+}
+.section_ecomm{
+    background: #FFDE6A;
+    padding: 1px 8px 4px 8px;
+    border-radius: 9.999px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #1B1A1A;
+    margin-left: 860px;
+    /* margin-top: 181px;  */
+}
+
+.section_head{
+    margin-right: 765px;
+    background: #FF8C78;
+    color: #1B1A1A;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 1px 8px 4px 8px;
+    border-radius: 9.999px;
+}
+
+.section_finances{
+    display: flex;
+    margin-left: 725px;
+    background:  #86EFAC;
+    color: #1B1A1A;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 1px 8px 4px 8px;
+    border-radius: 9.999px;
+}
